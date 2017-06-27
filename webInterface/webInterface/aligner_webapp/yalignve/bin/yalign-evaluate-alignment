@@ -1,0 +1,23 @@
+#!/home/nlp/Downloads/Aligner/aligner_webapp/yalignve/bin/python2
+# coding: utf-8
+"""
+Evaluate how many alignments are found from a document pair.
+
+Usage:
+    yalign-evaluate-alignment <parallel-corpus> <model>
+"""
+
+from docopt import docopt
+from yalign.yalignmodel import YalignModel
+from yalign.evaluation import alignment_percentage
+from yalign.input_conversion import parallel_corpus_to_documents
+
+
+if __name__ == "__main__":
+    args = docopt(__doc__)
+    parallel_corpus = args["<parallel-corpus>"]
+    A, B = parallel_corpus_to_documents(parallel_corpus)
+    modelpath = args["<model>"]
+    model = YalignModel.load(modelpath)
+    p = alignment_percentage(A, B, model)
+    print "Aligment percentage: {}%".format(p)

@@ -1,0 +1,41 @@
+Antymateria[edytuj]
+Antymateria
+Particles and antiparticles.svg
+Wprowadzenie
+Anihilacja
+[pokaż]Urządzenia
+[ukryj]Antycząstki
+Antycząstka
+Pozyton • Antyproton • Antyneutron • Antykwark
+[pokaż]Zastosowania
+[pokaż]Instytucje
+[ukryj]Znani uczeni
+Paul Dirac • Carl David Anderson • Andriej Sacharow
+pokaż • dyskusja • edytuj
+Nadszedł czas, kiedy my o coś prosimy.
+ Szanowni Czytelnicy! Przejdźmy od razu do sedna: dzisiaj prosimy o wsparcie dla Wikipedii. Aby chronić naszą niezależność, nigdy nie wprowadzimy reklam. Utrzymujemy się z datków o średniej wysokości 50 zł, które wpłaca bardzo mała część naszych czytelników. Gdyby każda osoba, która teraz czyta ten tekst, przekazała 10 zł, nasza zbiórka skończyłaby się w ciągu godziny. Zgadza się, koszt filiżanki kawy to wszystko czego nam potrzeba. Jeśli uważasz Wikipedię za przydatną, poświęć minutę na to, aby mogła działać i się rozwijać. Dziękujemy.
+
+Karta kredytowa
+PayPalZAMKNIJ
+Antymateria – układ antycząstek. Antycząstki to cząstki elementarne podobne do występujących w zwykłej materii (koinomaterii), ale o przeciwnym znaku ładunku elektrycznego oraz wszystkich addytywnych liczb kwantowych (np. izospinu, dziwności, liczby barionowej itp).
+W momencie kontaktu antymaterii z materią (zwykłą) obie ulegają anihilacji. Energia związana z masą spoczynkową anihilujących cząstek ulega przy tym zamianie na energię promieniowania elektromagnetycznego lub energię kinetyczną lżejszych cząstek.
+Spis treści  [ukryj] 
+1	Historia
+2	Wytwarzanie antymaterii
+3	Antymateria we Wszechświecie
+4	Przypisy
+5	Linki zewnętrzne
+Historia[edytuj kod]
+W 1928 roku Paul Dirac wprowadził relatywistyczne równanie elektronu, nazwane później równaniem Diraca. Z rozwiązania tego równania wynikało, że powinna istnieć cząstka przeciwna do elektronu. Cząstkę tę, zwaną obecnie pozytonem, zaobserwował w 1932 roku Carl David Anderson.
+Obecnie model standardowy zakłada, że każda cząstka ma antycząstkę, która ma masę równą masie cząstki, a jej liczby kwantowe mają znak przeciwny do l.k. cząstki. Niektóre cząstki (np. foton) są swoimi własnymi antycząstkami.
+Wytwarzanie antymaterii[edytuj kod]
+Możliwe jest wytwarzanie śladowych ilości antymaterii poprzez zderzanie cząstek rozpędzonych w akceleratorach. W wyniku reakcji jądrowych mogą powstawać antycząstki. W ten sposób udało się otrzymać m.in. antyprotony, antyneutrony, pozytony (antyelektrony), a także atomy antywodoru (ściślej antyprotu, czyli pary antyproton – antyelektron) oraz jądra antydeuteru, antytrytu i antyhelu.
+W CERN, w eksperymencie ALPHA urządzenie skonstruowane na wzór pułapki Penninga służy do przechowywania antyelektronów i antyprotonów i wytwarzania obojętnych atomów antywodoru[1].
+Antycząstki powstają również w warunkach naturalnych. Przykładem może być kreacja par przez kwanty gamma z promieniowania kosmicznego oddziałujące z materią atmosfery.
+Antymateria we Wszechświecie[edytuj kod]
+Interesującym zagadnieniem jest ewentualna obecność naturalnych skupisk antymaterii we Wszechświecie. Symetria pomiędzy zwykłą materią (koinomaterią) i antymaterią w naturalny sposób rodzi hipotezę, że Wszechświat powinien zawierać je w jednakowej ilości.
+Poszukiwanie kosmicznej antymaterii jest utrudnione przez równość mas cząstek i antycząstek oraz symetrię oddziaływań elektromagnetycznych ze względu na transformację C (zamianę cząstek na antycząstki). Powodują one, że obserwacje promieniowania elektromagnetycznego i oddziaływania grawitacyjnego odległego obiektu nie pozwalają na określenie czy jest on zbudowany z koinomaterii, czy z antymaterii.
+Z bezpośrednich obserwacji wiadomo, że cały Układ Słoneczny i jego najbliższe otoczenie zbudowane są ze zwykłej materii. Analiza pierwotnego promieniowania kosmicznego pokazuje, że jest to prawdą również dla odleglejszych obiektów. W zakresie energii pomiędzy 1 GeV a 50 GeV antyprotony stanowią mniej niż 0,01% docierających do Ziemi cząstek pierwotnego promieniowania kosmicznego, a ich liczba i rozkład energii są zgodne z obliczeniami przeprowadzonymi przy założeniu, że są one cząstkami wtórnymi, produktami zderzeń pierwotnego promieniowania z cząsteczkami gazu międzygwiazdowego[2]. Wynika z tego, że całe pierwotne promieniowanie kosmiczne w zakresie średnich energii składa się z koinomaterii, co wskazuje, że obiekty je emitujące również są z koinomaterii zbudowane.
+Dla promieni kosmicznych o bardzo wysokich energiach (pochodzących w większości spoza naszej galaktyki) identyfikacja antyprotonów jest znacznie trudniejsza. Dysponujemy jednak wynikami pomiarów wskazujących, że i w tym zakresie energii protony stanowią, jeżeli nie całość, to przynajmniej znaczną większość cząstek[3]. Pokazuje to, że także w Grupie Lokalnej i innych pobliskich gromadach galaktyk koinomateria jest w przewadze.
+Pośrednim argumentem za tym, że cały obserwowany Wszechświat jest zbudowany ze zwykłej materii, są negatywne próby zaobserwowania promieniowania powstającego podczas anihilacji koinomaterii i antymaterii. Gdyby we Wszechświecie istniały duże skupiska antymaterii, musiałyby też istnieć obszary graniczne, gdzie zwykła materia wyrzucona z galaktyk spotykałaby się z antymaterią wyrzuconą z „antygalaktyk” i dochodziłoby do anihilacji i uwolnienia znacznych energii w postaci promieniowania. Promieniowania takiego jednak nie obserwujemy, co świadczy, że obserwowany Wszechświat nie zawiera znaczących obszarów zbudowanych z antymaterii[4].
+Według aktualnego stanu wiedzy, Wszechświat wydaje się niesymetryczny i zawiera więcej barionów niż antybarionów. Większość uczonych skłania się ku hipotezie, że asymetria ta została wytworzona na bardzo wczesnym etapie życia Wszechświata (krótko po Wielkim Wybuchu) w procesie zwanym bariogenezą.
