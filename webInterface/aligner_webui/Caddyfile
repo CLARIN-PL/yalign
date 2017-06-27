@@ -1,0 +1,10 @@
+localhost:8000
+tls off
+root dist/
+proxy /api localhost:9000
+log stdout
+errors {
+    log stderr
+    # hack to show angular app on every page
+    404 index.html
+}

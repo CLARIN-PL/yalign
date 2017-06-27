@@ -1,0 +1,35 @@
+#!/home/nlp/Downloads/Aligner/aligner_webapp/yalignve/bin/python2
+# coding: utf-8
+"""
+Evaluates the correlation of the attributes on the classifier.
+
+Usage:
+    yalign-evaluate-correlation <parallel-corpus> <word-scores>
+"""
+
+from docopt import docopt
+from yalign.evaluation import correlation
+from yalign.wordpairscore import WordPairScore
+from yalign.sentencepairscore import SentencePairScore
+from yalign.input_conversion import parallel_corpus_to_documents
+from yalign.train_data_generation import training_alignments_from_documents
+
+
+if __name__ == "__main__":
+    args = docopt(__doc__)
+    parallel_corpus = args["<parallel-corpus>"]
+    word_scores = args["<word-scores>"]
+    A, B = parallel_corpus_to_documents(parallel_corpus)
+    alignments = [x for x in training_alignments_from_documents(A, B)]
+    # Word score
+    word_pair_score = WordPairScore(word_scores)
+    # Sentence Score
+    sentence_pair_score = SentencePairScore()
+    sentence_pair_score.train(alignments, word_pair_score)
+
+    cor = correlation(sentence_pair_score.classifier)
+    cor = dict([(x.name, y) for x, y in cor.iteritems()])
+    names = cor.keys()
+    names.sort()
+    for name in names:
+        print "{:30}: {:.3f}".format(name, cor[name])

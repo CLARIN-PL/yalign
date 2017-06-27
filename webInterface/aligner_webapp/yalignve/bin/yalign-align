@@ -1,0 +1,73 @@
+#!/home/nlp/Downloads/Aligner/aligner_webapp/yalignve/bin/python2
+# coding: utf-8
+
+"""
+Aligns two documents.
+
+Inputs:
+    model_folder: The directory where a trained model is kept.
+    document_a, document_b: The files or urls for the alignment.
+
+Output:
+    The output is written to stdout. View the -f option for supported output formats.
+
+Usage:
+    yalign-align [options] <model_folder> <document_a> <document_b>
+
+Options:
+  -a --lang-a=<language>                The language of the document A [default: en]
+  -b --lang-b=<language>                The language of the document B [default: es]
+  -f --output-format=<output-format>    The output format options are plaintext and tmx [default: plaintext]
+                                        The plaintext output consists of alternating sentences in the target
+                                        languages.
+  -h --help                             Show this screen.
+"""
+
+import codecs
+import os
+
+import nltk
+
+from docopt import docopt
+from yalign.yalignmodel import YalignModel
+from yalign.input_conversion import text_to_document, html_to_document
+from yalign.utils import write_tmx, read_from_url
+
+
+def read_document(filename, language):
+    if filename.startswith('http'):
+        html = read_from_url(filename)
+        return html_to_document(html, language)
+    text = codecs.open(filename, encoding="utf-8").read()
+    if filename.endswith(".html"):
+        return html_to_document(text, language)
+    return text_to_document(text, language)
+
+
+def write_plaintext(stream, pairs):
+    for a, b in pairs:
+        stream.write(a.to_text())
+        stream.write('\n')
+        stream.write(b.to_text())
+        stream.write('\n')
+
+if __name__ == "__main__":
+    from sys import stdout
+    args = docopt(__doc__)
+
+    output_format = args['--output-format'].lower()
+    lang_a = args['--lang-a']
+    lang_b = args['--lang-b']
+    model_path = os.path.abspath(args['<model_folder>'])
+    nltk.data.path += [model_path]
+    document_a = read_document(args['<document_a>'], lang_a)
+    document_b = read_document(args['<document_b>'], lang_b)
+    model = YalignModel.load(model_path)
+    pairs = model.align(document_a, document_b)
+
+    if output_format == "tmx":
+        write_tmx(stdout, pairs, lang_a, lang_b)
+    else:
+        write_plaintext(stdout, pairs)
+
+
